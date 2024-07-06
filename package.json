@@ -10,12 +10,6 @@
     "test": "jest",
     "test-all": "yarn lint && yarn type-check && yarn test"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "yarn run type-check"
-    }
-  },
   "dependencies": {
     "@walletconnect/web3-provider": "^1.8.0",
     "ethers": "^6.13.1",
